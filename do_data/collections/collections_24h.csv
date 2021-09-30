@@ -1,0 +1,243 @@
+rank,product_link,product_image,product_name,protocol,sales_eth,sales_summary_link,sales_usd,change_color,change,buyers,sales_link,Txns
+1,/axie-infinity,https://d1nht67oz99wd1.cloudfront.net/resized/axie-infinity-logo_resized.png,Axie Infinity,Ronin,"4,895.8223 ETH",/axie-infinity/sales/summary,"$14,119,265",#1d8843,1.01%,"25,386",/axie-infinity/sales,"63,791"
+2,/art-blocks,https://d1nht67oz99wd1.cloudfront.net/resized/art-blocks-logo2_resized.png,Art Blocks,Ethereum,"4,754.5346 ETH",/art-blocks/sales/summary,"$13,696,094",#ca2d2d,37.92%,368,/art-blocks/sales,510
+3,/cryptopunks,https://d1nht67oz99wd1.cloudfront.net/resized/cryptopunks-logo_resized.png,CryptoPunks,Ethereum,"3,486.7000 ETH",/cryptopunks/sales/summary,"$9,993,483",#1d8843,122.56%,19,/cryptopunks/sales,22
+4,/creature-world-nft,https://d1nht67oz99wd1.cloudfront.net/resized/creature-world_resized.png,Creature World NFT,Ethereum,851.1283 ETH,/creature-world-nft/sales/summary,"$2,455,181",#ca2d2d,61.72%,232,/creature-world-nft/sales,285
+5,/world-of-women,https://d1nht67oz99wd1.cloudfront.net/resized/world-of-women_resized.png,World Of Women,Ethereum,763.3410 ETH,/world-of-women/sales/summary,"$2,198,678",#1d8843,134.46%,118,/world-of-women/sales,179
+6,/cryptoadz,https://cryptoslam-token-images.s3.amazonaws.com/icons/cryptoads.jpg,CrypToadz,Ethereum,671.2096 ETH,/cryptoadz/sales/summary,"$1,921,837",#ca2d2d,63.77%,111,/cryptoadz/sales,133
+7,/mutant-ape-yacht-club,https://d1nht67oz99wd1.cloudfront.net/resized/mutant-ape-yacht-club_resized.png,Mutant Ape Yacht Club,Ethereum,576.1609 ETH,/mutant-ape-yacht-club/sales/summary,"$1,658,479",#1d8843,22.90%,89,/mutant-ape-yacht-club/sales,106
+8,/bored-ape-yacht-club,https://d1nht67oz99wd1.cloudfront.net/resized/BoredApeYachtClub_resized.ico,Bored Ape Yacht Club,Ethereum,484.0600 ETH,/bored-ape-yacht-club/sales/summary,"$1,385,169",#ca2d2d,27.41%,11,/bored-ape-yacht-club/sales,11
+9,/punks-comic,https://d1nht67oz99wd1.cloudfront.net/resized/PUNKS-Comic_resized.jpg,PUNKS Comic,Ethereum,384.9251 ETH,/punks-comic/sales/summary,"$1,097,735",#1d8843,145.97%,42,/punks-comic/sales,51
+10,/nba-top-shot,https://d1nht67oz99wd1.cloudfront.net/nba-top-shot-v2-logo.png,NBA Top Shot,Flow,"949,900.00 USD",/nba-top-shot/sales/summary,"$949,900",#1d8843,4.67%,"6,025",/nba-top-shot/sales,"29,441"
+11,/sorare,https://d1nht67oz99wd1.cloudfront.net/resized/sorare-logo-v2_resized.png,Sorare,Ethereum,305.8781 ETH,/sorare/sales/summary,"$880,034",#1d8843,17.77%,"2,162",/sorare/sales,"5,095"
+12,/cyberkongz,https://d1nht67oz99wd1.cloudfront.net/CyberKongz.png,CyberKongz,Ethereum,271.1000 ETH,/cyberkongz/sales/summary,"$783,431",#ca2d2d,5.66%,27,/cyberkongz/sales,27
+13,,https://d1nht67oz99wd1.cloudfront.net/resized/CurioCards_resized.png,Curio Cards,Ethereum,248.9177 ETH,/curio-cards/sales/summary,"$717,356",#1d8843,30.01%,79,/curio-cards/sales,129
+14,/lazy-lions,https://d1nht67oz99wd1.cloudfront.net/resized/lazy-lions_resized.webp,Lazy Lions,Ethereum,243.2393 ETH,/lazy-lions/sales/summary,"$698,897",#ca2d2d,22.19%,82,/lazy-lions/sales,97
+15,/veefriends,https://d1nht67oz99wd1.cloudfront.net/resized/veefriends_resized.png,Veefriends,Ethereum,238.6200 ETH,/veefriends/sales/summary,"$685,906",#ca2d2d,29.51%,7,/veefriends/sales,9
+16,,https://lh3.googleusercontent.com/cyJeHA0Oo-KveczexdimAxDHTCtmvApkn2SWFhq_QmU4CotxW1uCRp-rBydovapL65kG5geRCrGZts74o3eZS9VONQ6549A4DIMCjg=s130,MetaHero Universe,Ethereum,212.1548 ETH,/metahero-universe/sales/summary,"$606,301",#1d8843,96.53%,26,/metahero-universe/sales,27
+17,/loot,https://cryptoslam-token-images.s3.amazonaws.com/icons/loot.png,Loot,Ethereum,200.7057 ETH,/loot/sales/summary,"$577,790",#ca2d2d,1.04%,24,/loot/sales,31
+18,/robotos-official,https://d1nht67oz99wd1.cloudfront.net/robotos.png,Robotos Official,Ethereum,196.3657 ETH,/robotos-official/sales/summary,"$563,634",#ca2d2d,18.40%,109,/robotos-official/sales,145
+19,/sneaky-vampire-syndicate,https://cryptoslam-token-images.s3.amazonaws.com/icons/svs.png,Sneaky Vampire Syndicate,Ethereum,187.2171 ETH,/sneaky-vampire-syndicate/sales/summary,"$536,955",#1d8843,98.84%,59,/sneaky-vampire-syndicate/sales,81
+20,/zed-run,https://d1nht67oz99wd1.cloudfront.net/resized/zedrun-logo_resized.png,Zed Run,Polygon,"462,128.52 MATIC",/zed-run/sales/summary,"$530,955",#ca2d2d,27.29%,598,/zed-run/sales,946
+21,/sup-ducks,https://d1nht67oz99wd1.cloudfront.net/resized/supducks_resized.png,Sup Ducks,Ethereum,184.5477 ETH,/sup-ducks/sales/summary,"$526,798",#ca2d2d,22.14%,39,/sup-ducks/sales,47
+22,/parallel-alpha,https://d1nht67oz99wd1.cloudfront.net/parallel-alpha.ico,Parallel Alpha,Ethereum,167.9185 ETH,/parallel-alpha/sales/summary,"$485,818",#1d8843,185.20%,58,/parallel-alpha/sales,117
+23,,https://lh3.googleusercontent.com/h0MhwYG3nIpAP8Pse5MAN8SkpuuB_eshuQpc0g7ShW3G0XgZmIGYfb3nN-qV079TfjDyVl4BpY-ch5xMclDWEMIn6oMZV3CFZfMCVWs=s130,888 Inner Circle,Ethereum,163.1447 ETH,/888-inner-circle/sales/summary,"$467,744",#1d8843,0.97%,55,/888-inner-circle/sales,58
+24,/fluf-world,https://d1nht67oz99wd1.cloudfront.net/resized/fluf-world_resized.webp,Fluf World,Ethereum,161.8819 ETH,/fluf-world/sales/summary,"$464,392",#1d8843,169.51%,86,/fluf-world/sales,150
+25,/cool-cats,https://d1nht67oz99wd1.cloudfront.net/resized/cool-cats_resized.ico,Cool Cats,Ethereum,152.4500 ETH,/cool-cats/sales/summary,"$435,431",#ca2d2d,41.39%,15,/cool-cats/sales,15
+26,/emblem-vault,https://cryptoslam-token-images.s3.amazonaws.com/icons/emblem-vault.png,Emblem Vault,Ethereum,136.3477 ETH,/emblem-vault/sales/summary,"$391,672",#ca2d2d,42.89%,52,/emblem-vault/sales,97
+27,/the-cryptodads,https://cryptoslam-token-images.s3.amazonaws.com/icons/crydads.png,The CryptoDads,Ethereum,134.1136 ETH,/the-cryptodads/sales/summary,"$385,514",#1d8843,34.45%,66,/the-cryptodads/sales,85
+28,/cyberkongz-vx,https://d1nht67oz99wd1.cloudfront.net/resized/CyberKongs-VX_resized.webp,CyberKongz VX,Ethereum,123.8495 ETH,/cyberkongz-vx/sales/summary,"$354,761",#ca2d2d,72.24%,70,/cyberkongz-vx/sales,86
+29,/pudgy-penguins,https://d1nht67oz99wd1.cloudfront.net/resized/pudgy-penguins_resized.jpg,Pudgy Penguins,Ethereum,122.4940 ETH,/pudgy-penguins/sales/summary,"$352,391",#ca2d2d,62.93%,33,/pudgy-penguins/sales,39
+30,,https://cryptoslam-token-images.s3.amazonaws.com/icons/galaxyeggs.jpeg,Galaxy Eggs,Ethereum,116.1723 ETH,/galaxy-eggs/sales/summary,"$332,083",#1d8843,33.58%,98,/galaxy-eggs/sales,116
+31,/bulls-on-the-block,https://d1nht67oz99wd1.cloudfront.net/resized/Bulls-on-the-block_resized.png,Bulls On The Block,Ethereum,106.6110 ETH,/bulls-on-the-block/sales/summary,"$308,012",#1d8843,91.64%,146,/bulls-on-the-block/sales,282
+32,/bored-mummy-waking-up,https://d1nht67oz99wd1.cloudfront.net/bored-mummy-waking-up.png,Bored Mummy Waking Up,Ethereum,97.8285 ETH,/bored-mummy-waking-up/sales/summary,"$280,482",#ca2d2d,6.38%,188,/bored-mummy-waking-up/sales,313
+33,/meebits,https://d1nht67oz99wd1.cloudfront.net/resized/meebits_resized.png,Meebits,Ethereum,88.6103 ETH,/meebits/sales/summary,"$254,618",#ca2d2d,45.53%,18,/meebits/sales,18
+34,/dapper-dinos-nft,https://cryptoslam-token-images.s3.amazonaws.com/icons/dapperdino.jpeg,Dapper Dinos NFT,Ethereum,87.7028 ETH,/dapper-dinos-nft/sales/summary,"$251,446",#1d8843,1.01%,95,/dapper-dinos-nft/sales,161
+35,/anonymice,https://cryptoslam-token-images.s3.amazonaws.com/icons/anonymice.jpeg,Anonymice,Ethereum,86.9897 ETH,/anonymice/sales/summary,"$249,335",#ca2d2d,0.01%,20,/anonymice/sales,22
+36,/the-doge-pound,https://d1nht67oz99wd1.cloudfront.net/resized/the-doge-pound_resized.png,The Doge Pound,Ethereum,86.5979 ETH,/the-doge-pound/sales/summary,"$246,921",#1d8843,57.14%,51,/the-doge-pound/sales,57
+37,,https://d1nht67oz99wd1.cloudfront.net/resized/mch-logo_resized.png,The Sandbox,Ethereum,83.2030 ETH,/the-sandbox/sales/summary,"$239,552",#1d8843,16.18%,77,/the-sandbox/sales,109
+38,/mooncats,https://cryptoslam-token-images.s3.amazonaws.com/MoonCats.ico,Mooncats,Ethereum,79.4043 ETH,/mooncats/sales/summary,"$228,342",#ca2d2d,10.47%,49,/mooncats/sales,64
+39,/gutter-cat-gang,https://d1nht67oz99wd1.cloudfront.net/guttercats-logo.jpeg,Gutter Cat Gang,Ethereum,77.5346 ETH,/gutter-cat-gang/sales/summary,"$222,603",#ca2d2d,46.61%,12,/gutter-cat-gang/sales,12
+40,/cupcats-official,https://cryptoslam-token-images.s3.amazonaws.com/icons/cupcat.png,Cupcats Official,Ethereum,75.8416 ETH,/cupcats-official/sales/summary,"$218,639",#ca2d2d,35.13%,40,/cupcats-official/sales,68
+41,/adam-bomb-squad,https://cryptoslam-token-images.s3.amazonaws.com/icons/adam-bomb-squad.jpg,Adam Bomb Squad,Ethereum,68.6269 ETH,/adam-bomb-squad/sales/summary,"$197,193",#ca2d2d,49.88%,100,/adam-bomb-squad/sales,158
+42,/farmers-world,https://d1nht67oz99wd1.cloudfront.net/resized/farmers-world_resized.png,Farmers World,WAX,"944,919 WAX",/farmers-world/sales/summary,"$190,848",#1d8843,12.07%,182,/farmers-world/sales,"1,735"
+43,/koala-intelligence-agency,https://d1nht67oz99wd1.cloudfront.net/koala-intelligence-agency.png,Koala Intelligence Agency,Ethereum,64.4810 ETH,/koala-intelligence-agency/sales/summary,"$184,636",#ca2d2d,48.89%,56,/koala-intelligence-agency/sales,88
+44,/nah-fungible-bones,https://cryptoslam-token-images.s3.amazonaws.com/icons/svs.png,NAH Fungible Bones,Ethereum,61.4279 ETH,/nah-fungible-bones/sales/summary,"$177,776",#ca2d2d,10.11%,143,/nah-fungible-bones/sales,240
+45,/galaxy-fight-club,https://d1nht67oz99wd1.cloudfront.net/resized/galaxy-fight-club_resized.webp,Galaxy Fight Club,Ethereum,61.1862 ETH,/galaxy-fight-club/sales/summary,"$175,098",#1d8843,2.48%,47,/galaxy-fight-club/sales,103
+46,/ether-cards-founder-series,https://d1nht67oz99wd1.cloudfront.net/resized/ether-cards_resized.png,Ether Cards Founder Series,Ethereum,60.0889 ETH,/ether-cards-founder-series/sales/summary,"$173,312",#1d8843,335.11%,18,/ether-cards-founder-series/sales,22
+47,/0n1-force,https://d1nht67oz99wd1.cloudfront.net/0N1-force.png,0N1 Force,Ethereum,51.9288 ETH,/0n1-force/sales/summary,"$149,861",#ca2d2d,61.42%,19,/0n1-force/sales,22
+48,/hashmasks,https://d1nht67oz99wd1.cloudfront.net/resized/hashmasks-logo-2_resized.png,Hashmasks,Ethereum,45.3096 ETH,/hashmasks/sales/summary,"$130,031",#ca2d2d,0.79%,25,/hashmasks/sales,27
+49,/bored-ape-kennel-club,https://d1nht67oz99wd1.cloudfront.net/resized/bored-ape-kennel-club_resized.png,Bored Ape Kennel Club,Ethereum,44.3215 ETH,/bored-ape-kennel-club/sales/summary,"$126,968",#ca2d2d,19.06%,13,/bored-ape-kennel-club/sales,14
+50,/animetas,https://d1nht67oz99wd1.cloudfront.net/resized/animetas_resized.png,Animetas,Ethereum,30.7034 ETH,/animetas/sales/summary,"$88,486",#ca2d2d,12.70%,40,/animetas/sales,53
+51,/monkey-bet-dao,https://cryptoslam-token-images.s3.amazonaws.com/icons/monkey-bet.png,Monkey Bet DAO,Ethereum,30.8096 ETH,/monkey-bet-dao/sales/summary,"$88,282",#1d8843,50.68%,35,/monkey-bet-dao/sales,59
+52,/boring-bananas-co,https://d1nht67oz99wd1.cloudfront.net/resized/boring-bananas_resized.jpg,Boring Bananas Co,Ethereum,29.4869 ETH,/boring-bananas-co/sales/summary,"$85,002",#1d8843,"1,109.55%",124,/boring-bananas-co/sales,322
+53,/treeverse,https://d1nht67oz99wd1.cloudfront.net/treeverse.png,Treeverse,Ethereum,26.9278 ETH,/treeverse/sales/summary,"$77,059",#1d8843,48.35%,25,/treeverse/sales,33
+54,,https://cryptoslam-token-images.s3.amazonaws.com/icons/space-punks-club.png,Space Punks Club,Ethereum,27.0243 ETH,/space-punks-club/sales/summary,"$76,848",#ca2d2d,7.35%,36,/space-punks-club/sales,71
+55,/gutter-rats,https://d1nht67oz99wd1.cloudfront.net/resized/gutter-rats_resized.png,Gutter Rats,Ethereum,26.5006 ETH,/gutter-rats/sales/summary,"$75,867",#1d8843,79.40%,18,/gutter-rats/sales,19
+56,/sipherian-surge,https://lh3.googleusercontent.com/7UuKVrJzigTu5oUT2klZbSAuHPB0YUwxvEdN0sMHqiSo_guQPsDxeRy2mts_1j2WhaB-VwxgPRxYxr44EjeFEAoXrzHbCDmoKG3B=s130,Sipherian Surge,Ethereum,26.1405 ETH,/sipherian-surge/sales/summary,"$75,132",#ca2d2d,38.26%,50,/sipherian-surge/sales,86
+57,/voxies,https://d1nht67oz99wd1.cloudfront.net/resized/voxies_resized.png,Voxies,Ethereum,24.3649 ETH,/voxies/sales/summary,"$69,458",#1d8843,62.69%,16,/voxies/sales,17
+58,/dead-heads,https://d1nht67oz99wd1.cloudfront.net/resized/dead-heads_resized.png,Dead Heads,Ethereum,23.6399 ETH,/dead-heads/sales/summary,"$67,979",#ca2d2d,76.95%,43,/dead-heads/sales,55
+59,,https://d1nht67oz99wd1.cloudfront.net/resized/cryptokitties-logo_resized.png,CryptoKitties,Ethereum,20.7631 ETH,/cryptokitties/sales/summary,"$58,960",#1d8843,"1,162.23%",80,/cryptokitties/sales,126
+60,/goatz,https://d1nht67oz99wd1.cloudfront.net/resized/goatz_resized.png,Goatz,Ethereum,20.3328 ETH,/goatz/sales/summary,"$58,314",#1d8843,7.64%,48,/goatz/sales,82
+61,/forgotten-runes,https://d1nht67oz99wd1.cloudfront.net/resized/forgotten-runes-wizards-cult_resized.ico,Forgotten Runes,Ethereum,19.8716 ETH,/forgotten-runes/sales/summary,"$56,735",#1d8843,28.13%,19,/forgotten-runes/sales,23
+62,/rumble-kong-league,https://d1nht67oz99wd1.cloudfront.net/rumble-kong-league.webp,Rumble Kong League,Ethereum,19.4932 ETH,/rumble-kong-league/sales/summary,"$56,227",#ca2d2d,50.07%,11,/rumble-kong-league/sales,15
+63,/the-sevens,https://cryptoslam-token-images.s3.amazonaws.com/icons/thesevens.png,The Sevens,Ethereum,18.5990 ETH,/the-sevens/sales/summary,"$53,579",#ca2d2d,27.16%,47,/the-sevens/sales,51
+64,/star-sailor-siblings,https://cryptoslam-token-images.s3.amazonaws.com/icons/star-sailor-siblings.png,Star Sailor Siblings,Ethereum,18.1136 ETH,/star-sailor-siblings/sales/summary,"$51,942",#1d8843,664.44%,48,/star-sailor-siblings/sales,98
+65,/splinterlands,https://d1nht67oz99wd1.cloudfront.net/resized/splinterlands_resized.png,Splinterlands,WAX,"232,049 WAX",/splinterlands/sales/summary,"$45,902",#1d8843,689.08%,84,/splinterlands/sales,429
+66,/stoner-cats,https://d1nht67oz99wd1.cloudfront.net/resized/stoner-cats_resized.png,Stoner Cats,Ethereum,15.8719 ETH,/stoner-cats/sales/summary,"$45,601",#ca2d2d,15.49%,31,/stoner-cats/sales,38
+67,/mutant-garden-seeder,https://d1nht67oz99wd1.cloudfront.net/resized/mutant-garden-seeder_resized.png,Mutant Garden Seeder,Ethereum,15.0000 ETH,/mutant-garden-seeder/sales/summary,"$43,584",#1d8843,0.00%,1,/mutant-garden-seeder/sales,1
+68,/byo-pills,https://d1nht67oz99wd1.cloudfront.net/resized/byopills_resized.ico,Byo Pills,Ethereum,14.5320 ETH,/byo-pills/sales/summary,"$41,768",#ca2d2d,40.55%,39,/byo-pills/sales,60
+69,,https://cryptoslam-token-images.s3.amazonaws.com/icons/chicken-derby.png,Chicken Derby,Polygon,"35,035.72 MATIC",/chicken-derby/sales/summary,"$39,469",#1d8843,23.89%,49,/chicken-derby/sales,79
+70,/incognito,https://d1nht67oz99wd1.cloudfront.net/resized/incognito_resized.webp,Incognito,Ethereum,13.5147 ETH,/incognito/sales/summary,"$38,936",#1d8843,9.58%,31,/incognito/sales,49
+71,/lonely-alien-space-club,https://d1nht67oz99wd1.cloudfront.net/resized/lonely-alien-space-club_resized.png,Lonely Alien Space Club,Ethereum,12.6444 ETH,/lonely-alien-space-club/sales/summary,"$36,491",#ca2d2d,60.71%,34,/lonely-alien-space-club/sales,42
+72,/alien-worlds,https://d1nht67oz99wd1.cloudfront.net/resized/alien-worlds-logo_resized.png,Alien Worlds,WAX,"182,766 WAX",/alien-worlds/sales/summary,"$36,457",#1d8843,2.07%,731,/alien-worlds/sales,"3,842"
+73,/the-wicked-craniums,https://d1nht67oz99wd1.cloudfront.net/resized/wicked-cranium_resized.png,The Wicked Craniums,Ethereum,12.6249 ETH,/the-wicked-craniums/sales/summary,"$36,455",#ca2d2d,53.77%,22,/the-wicked-craniums/sales,25
+74,/the-vogu-collective,https://d1nht67oz99wd1.cloudfront.net/resized/the-vogu-collective_resized.png,The Vogu Collective,Ethereum,11.4178 ETH,/the-vogu-collective/sales/summary,"$32,930",#1d8843,14.23%,19,/the-vogu-collective/sales,21
+75,/space-poggers,https://cryptoslam-token-images.s3.amazonaws.com/icons/space-poggers.ico,Space Poggers,Ethereum,10.8387 ETH,/space-poggers/sales/summary,"$30,859",#ca2d2d,6.40%,57,/space-poggers/sales,85
+76,/eternal,https://d1nht67oz99wd1.cloudfront.net/resized/eternal-logo-2_resized.png,Eternal,Flow,"29,875.00 USD",/eternal/sales/summary,"$29,875",#1d8843,438.58%,116,/eternal/sales,687
+77,/royal-society-of-players,https://d1nht67oz99wd1.cloudfront.net/resized/royal-society-of-players_resized.png,Royal Society Of Players,Ethereum,10.2841 ETH,/royal-society-of-players/sales/summary,"$29,448",#1d8843,124.92%,28,/royal-society-of-players/sales,50
+78,,https://cryptoslam-token-images.s3.amazonaws.com/icons/rogue.png,Rogue Society Bot,Ethereum,9.6984 ETH,/rogue-society-bot/sales/summary,"$27,882",#ca2d2d,78.34%,63,/rogue-society-bot/sales,91
+79,/chibi-apes,https://cryptoslam-token-images.s3.amazonaws.com/icons/chibiApes.png,Chibi Apes,Ethereum,9.3504 ETH,/chibi-apes/sales/summary,"$26,847",#ca2d2d,25.87%,23,/chibi-apes/sales,28
+80,/the-alien-boy,https://d1nht67oz99wd1.cloudfront.net/resized/the-alien-boy_resized.png,The Alien Boy,Ethereum,9.3087 ETH,/the-alien-boy/sales/summary,"$26,702",#1d8843,73.56%,35,/the-alien-boy/sales,50
+81,/avastars,https://d1nht67oz99wd1.cloudfront.net/resized/avastars_resized.png,Avastars,Ethereum,9.1854 ETH,/avastars/sales/summary,"$26,143",#1d8843,50.67%,24,/avastars/sales,31
+82,/bloot,https://cryptoslam-token-images.s3.amazonaws.com/icons/bloot.png,Bloot,Ethereum,7.4684 ETH,/bloot/sales/summary,"$21,350",#1d8843,42.93%,27,/bloot/sales,29
+83,/crypto-cannabis-club,https://d1nht67oz99wd1.cloudfront.net/resized/crypto-cannabis-club_resized.jpg,Crypto Cannabis Club,Ethereum,7.3360 ETH,/crypto-cannabis-club/sales/summary,"$21,116",#ca2d2d,48.84%,21,/crypto-cannabis-club/sales,26
+84,/top-dog-beach-club,https://d1nht67oz99wd1.cloudfront.net/resized/top-dog-beach-club_resized.png,Top Dog Beach Club,Ethereum,7.1995 ETH,/top-dog-beach-club/sales/summary,"$20,734",#ca2d2d,40.96%,17,/top-dog-beach-club/sales,21
+85,/purrnelopes-country-club,https://d1nht67oz99wd1.cloudfront.net/resized/purrnelopes-country-club_resized.jpg,Purrnelopes Country Club,Ethereum,6.9560 ETH,/purrnelopes-country-club/sales/summary,"$19,927",#ca2d2d,50.30%,11,/purrnelopes-country-club/sales,11
+86,/great-ape-society,https://d1nht67oz99wd1.cloudfront.net/great-ape-society.jpg,Great Ape Society,Ethereum,6.0640 ETH,/great-ape-society/sales/summary,"$17,395",#ca2d2d,15.92%,29,/great-ape-society/sales,47
+87,/bastard-gan-punks-v2,https://d1nht67oz99wd1.cloudfront.net/resized/bastard-gan-punks-v2_resized.ico,Bastard Gan Punks V2,Ethereum,6.0747 ETH,/bastard-gan-punks-v2/sales/summary,"$17,310",#ca2d2d,50.64%,13,/bastard-gan-punks-v2/sales,14
+88,/goons-of-balatroon,https://d1nht67oz99wd1.cloudfront.net/goons-of-balatroon.ico,Goons of Balatroon,Ethereum,5.7126 ETH,/goons-of-balatroon/sales/summary,"$16,458",#ca2d2d,52.96%,25,/goons-of-balatroon/sales,30
+89,/fame-lady-squad,https://d1nht67oz99wd1.cloudfront.net/fame-lady-squad.png,Fame Lady Squad,Ethereum,4.8395 ETH,/fame-lady-squad/sales/summary,"$13,944",#ca2d2d,41.83%,30,/fame-lady-squad/sales,38
+90,/super-yeti,https://d1nht67oz99wd1.cloudfront.net/resized/SuperYeti_resized.png,Super Yeti,Ethereum,4.5393 ETH,/super-yeti/sales/summary,"$13,063",#1d8843,271.02%,42,/super-yeti/sales,49
+91,/gauntlets,https://d1nht67oz99wd1.cloudfront.net/resized/gauntlets_resized.webp,Gauntlets,Ethereum,4.3908 ETH,/gauntlets/sales/summary,"$12,559",#ca2d2d,44.13%,14,/gauntlets/sales,14
+92,/sewer-rat-social-club,https://d1nht67oz99wd1.cloudfront.net/resized/sewer-rat-social-club_resized.png,Sewer Rat Social Club,Ethereum,4.2438 ETH,/sewer-rat-social-club/sales/summary,"$12,045",#1d8843,94.82%,23,/sewer-rat-social-club/sales,27
+93,/crazy-lizard-army,https://d1nht67oz99wd1.cloudfront.net/resized/crazy-lizard-army_resized.ico,Crazy Lizard Army,Ethereum,3.9456 ETH,/crazy-lizard-army/sales/summary,"$11,442",#1d8843,22.10%,19,/crazy-lizard-army/sales,36
+94,/visitors-of-imma-degen,https://d1nht67oz99wd1.cloudfront.net/resized/the-visitors-of-imma-degen_resized.png,Visitors Of Imma Degen,Ethereum,3.7890 ETH,/visitors-of-imma-degen/sales/summary,"$10,856",#ca2d2d,7.58%,13,/visitors-of-imma-degen/sales,20
+95,/animonkeys,https://d1nht67oz99wd1.cloudfront.net/resized/animonkeys_resized.png,Animonkeys,Ethereum,3.6352 ETH,/animonkeys/sales/summary,"$10,472",#1d8843,465.02%,7,/animonkeys/sales,12
+96,/crypto-beasts,https://d1nht67oz99wd1.cloudfront.net/resized/crypto-beasts_resized.ico,Crypto Beasts,Ethereum,3.5789 ETH,/crypto-beasts/sales/summary,"$10,340",#1d8843,42.80%,11,/crypto-beasts/sales,15
+97,/the-kitty-butts,https://cryptoslam-token-images.s3.amazonaws.com/icons/the-kitty-butts.jpg,The Kitty Butts,Ethereum,3.2912 ETH,/the-kitty-butts/sales/summary,"$9,501",#1d8843,46.71%,28,/the-kitty-butts/sales,50
+98,,https://cryptoslam-token-images.s3.amazonaws.com/icons/cryptoarte.png,CryptoArte,Ethereum,3.2119 ETH,/cryptoarte/sales/summary,"$9,164",#ca2d2d,51.24%,9,/cryptoarte/sales,11
+99,/generativemasks,https://d1nht67oz99wd1.cloudfront.net/resized/generative-masks_resized.webp,Generativemasks,Ethereum,2.9952 ETH,/generativemasks/sales/summary,"$8,642",#ca2d2d,80.39%,12,/generativemasks/sales,21
+100,/glue-factory-show,https://d1nht67oz99wd1.cloudfront.net/glue-factory-show.jpg,Glue Factory Show,Ethereum,2.9114 ETH,/glue-factory-show/sales/summary,"$8,431",#ca2d2d,46.90%,18,/glue-factory-show/sales,26
+101,/junkyarddogs,https://cryptoslam-token-images.s3.amazonaws.com/icons/junkyard-dogs.ico,JunkYardDogs,Ethereum,2.4668 ETH,/junkyarddogs/sales/summary,"$7,133",#ca2d2d,67.95%,18,/junkyarddogs/sales,21
+102,/crypto-raiders-characters,https://d1nht67oz99wd1.cloudfront.net/crypto-raiders-characters.ico,Crypto Raiders Characters,Polygon,"6,187.22 MATIC",/crypto-raiders-characters/sales/summary,"$6,645",#ca2d2d,65.74%,13,/crypto-raiders-characters/sales,17
+103,/colonize-mars,https://d1nht67oz99wd1.cloudfront.net/colonize-mars.png,Colonize Mars,WAX,"31,896 WAX",/colonize-mars/sales/summary,"$6,437",#1d8843,22.18%,60,/colonize-mars/sales,342
+104,/r-planet,https://d1nht67oz99wd1.cloudfront.net/resized/r-planet_resized.png,R Planet,WAX,"31,829 WAX",/r-planet/sales/summary,"$6,351",#ca2d2d,51.16%,52,/r-planet/sales,112
+105,/voxodeus,https://d1nht67oz99wd1.cloudfront.net/resized/voxodeus_resized.png,Voxodeus,Ethereum,2.1630 ETH,/voxodeus/sales/summary,"$6,171",#ca2d2d,27.97%,4,/voxodeus/sales,8
+106,/sad-frogs-district,https://d1nht67oz99wd1.cloudfront.net/sad-frogs-district.jpg,Sad Frogs District,Ethereum,2.0679 ETH,/sad-frogs-district/sales/summary,"$5,936",#1d8843,19.29%,13,/sad-frogs-district/sales,19
+107,/weird-whales,https://d1nht67oz99wd1.cloudfront.net/resized/weird-whales_resized.png,Weird Whales,Ethereum,2.0640 ETH,/weird-whales/sales/summary,"$5,895",#1d8843,95.05%,4,/weird-whales/sales,4
+108,/hall-of-fame-goat-lodge,https://d1nht67oz99wd1.cloudfront.net/resized/hall-of-fame-goat-lodge_resized.jpg,Hall Of Fame Goat Lodge,Ethereum,1.9157 ETH,/hall-of-fame-goat-lodge/sales/summary,"$5,521",#1d8843,120.79%,22,/hall-of-fame-goat-lodge/sales,24
+109,/gorilla-nemesis,https://d1nht67oz99wd1.cloudfront.net/resized/gorilla-nemesis_resized.jpg,Gorilla Nemesis,Ethereum,1.8770 ETH,/gorilla-nemesis/sales/summary,"$5,434",#ca2d2d,36.02%,13,/gorilla-nemesis/sales,16
+110,/wrapped-strikers,https://d1nht67oz99wd1.cloudfront.net/wrapped-strikers.jpg,Wrapped Strikers,Ethereum,1.8600 ETH,/wrapped-strikers/sales/summary,"$5,297",#1d8843,75.00%,3,/wrapped-strikers/sales,3
+111,/topps-mlb,https://d1nht67oz99wd1.cloudfront.net/topps-mlb.png,Topps MLB,WAX,"24,335 WAX",/topps-mlb/sales/summary,"$4,901",#ca2d2d,79.01%,67,/topps-mlb/sales,363
+112,/nftboxes,https://d1nht67oz99wd1.cloudfront.net/resized/nftboxes_resized.png,Nftboxes,Ethereum,1.6724 ETH,/nftboxes/sales/summary,"$4,823",#ca2d2d,99.08%,14,/nftboxes/sales,19
+113,/reb3l-bots,https://d1nht67oz99wd1.cloudfront.net/reb3l-bots.png,Reb3l Bots,Ethereum,1.5869 ETH,/reb3l-bots/sales/summary,"$4,528",#1d8843,374.97%,19,/reb3l-bots/sales,42
+114,/divine-order,https://d1nht67oz99wd1.cloudfront.net/resized/the-divine-order-of-the-zodiac_resized.png,Divine Order,Ethereum,1.2695 ETH,/divine-order/sales/summary,"$3,644",#1d8843,90.75%,15,/divine-order/sales,17
+115,/pixls,https://d1nht67oz99wd1.cloudfront.net/resized/pixls_resized.png,Pixls,Ethereum,1.2300 ETH,/pixls/sales/summary,"$3,559",#1d8843,432.85%,6,/pixls/sales,9
+116,/long-neckie-ladies,https://d1nht67oz99wd1.cloudfront.net/long-neckie-ladies.png,Long Neckie Ladies,Ethereum,1.2103 ETH,/long-neckie-ladies/sales/summary,"$3,541",#1d8843,20.48%,4,/long-neckie-ladies/sales,6
+117,/kogs,https://d1nht67oz99wd1.cloudfront.net/resized/kogs-logo_resized.png,KOGS,WAX,"16,690 WAX",/kogs/sales/summary,"$3,391",#ca2d2d,50.46%,83,/kogs/sales,762
+118,/realfevr,https://cryptoslam-token-images.s3.amazonaws.com/icons/realfevr.png,RealFevr,BSC,9.36 BNB,/realfevr/sales/summary,"$3,306",#ca2d2d,5.87%,52,/realfevr/sales,131
+119,/funko,https://d1nht67oz99wd1.cloudfront.net/funko.jpg,Funko,WAX,"14,676 WAX",/funko/sales/summary,"$2,942",#ca2d2d,10.81%,46,/funko/sales,234
+120,/untamed-elephants,https://d1nht67oz99wd1.cloudfront.net/resized/untamed-elephants_resized.png,Untamed Elephants,Ethereum,1.0200 ETH,/untamed-elephants/sales/summary,"$2,921",#1d8843,590.49%,13,/untamed-elephants/sales,14
+121,/dark-country,https://d1nht67oz99wd1.cloudfront.net/resized/dark-country-logo_resized.png,Dark Country,WAX,"14,375 WAX",/dark-country/sales/summary,"$2,897",#1d8843,83.02%,31,/dark-country/sales,160
+122,,https://d1nht67oz99wd1.cloudfront.net/heavencomputer.ico,HeavenComputer,Ethereum,0.9890 ETH,/heavencomputer/sales/summary,"$2,813",#ca2d2d,72.09%,5,/heavencomputer/sales,5
+123,/green-rabbit,https://d1nht67oz99wd1.cloudfront.net/green-rabbit.png,Green Rabbit,WAX,"13,970 WAX",/green-rabbit/sales/summary,"$2,783",#1d8843,143.19%,59,/green-rabbit/sales,235
+124,/janky-heist,https://d1nht67oz99wd1.cloudfront.net/resized/janky-heist_resized.ico,Janky Heist,Ethereum,0.9396 ETH,/janky-heist/sales/summary,"$2,698",#ca2d2d,55.10%,10,/janky-heist/sales,12
+125,/the-wolf-gang,https://cryptoslam-token-images.s3.amazonaws.com/icons/wolfgang.png,The Wolf Gang,Ethereum,0.8713 ETH,/the-wolf-gang/sales/summary,"$2,525",#1d8843,30.46%,18,/the-wolf-gang/sales,23
+126,/revv-racing,https://d1nht67oz99wd1.cloudfront.net/resized/revv-racing_resized.png,REVV Racing,Polygon,"2,109.88 MATIC",/revv-racing/sales/summary,"$2,487",#1d8843,24.32%,49,/revv-racing/sales,60
+127,/lucky-maneki,https://d1nht67oz99wd1.cloudfront.net/resized/lucky-maneki_resized.ico,Lucky Maneki,Ethereum,0.8279 ETH,/lucky-maneki/sales/summary,"$2,386",#1d8843,48.32%,12,/lucky-maneki/sales,14
+128,/barn-owlz,https://d1nht67oz99wd1.cloudfront.net/resized/barn-owlz_resized.png,Barn Owlz,Ethereum,0.8170 ETH,/barn-owlz/sales/summary,"$2,352",#ca2d2d,53.97%,8,/barn-owlz/sales,8
+129,/cypher-city,https://d1nht67oz99wd1.cloudfront.net/resized/cypher-city_resized.ico,Cypher City,Ethereum,0.7967 ETH,/cypher-city/sales/summary,"$2,278",#ca2d2d,73.10%,10,/cypher-city/sales,22
+130,/the-lost-glitches,https://lh3.googleusercontent.com/StxGb1ZUJYW6bQOWqe14HJ6FAoAJJ9s5dd23Cjf8IkD1YFMzfAC0VQaEUnjSnybNAghR_1I7XhF7UEwBRh03xmVjFXXz9LObS-BQRw=s130,The Lost Glitches,Ethereum,0.7500 ETH,/the-lost-glitches/sales/summary,"$2,146",#ca2d2d,88.11%,14,/the-lost-glitches/sales,17
+131,/slacker-duck-pond,https://d1nht67oz99wd1.cloudfront.net/resized/slacker-duck-pond_resized.ico,Slacker Duck Pond,Ethereum,0.6449 ETH,/slacker-duck-pond/sales/summary,"$1,874",#1d8843,435.69%,9,/slacker-duck-pond/sales,10
+132,,https://cryptoslam-token-images.s3.amazonaws.com/icons/covidpunks.jpeg,COVIDPunks,Ethereum,0.6300 ETH,/covidpunks/sales/summary,"$1,807",#1d8843,205.37%,11,/covidpunks/sales,12
+133,/cryptomonkeys,https://d1nht67oz99wd1.cloudfront.net/resized/cryptomonkeys-logo_resized.png,CryptomonKeys,WAX,"8,668 WAX",/cryptomonkeys/sales/summary,"$1,744",#1d8843,43.71%,25,/cryptomonkeys/sales,88
+134,/train-of-the-century,https://d1nht67oz99wd1.cloudfront.net/resized/train-of-the-century_resized.webp,Train of the Century,WAX,"8,563 WAX",/train-of-the-century/sales/summary,"$1,727",#ca2d2d,29.12%,42,/train-of-the-century/sales,154
+135,/mad-cat-militia,https://d1nht67oz99wd1.cloudfront.net/resized/mad-cat-militia_resized.png,Mad Cat Militia,Ethereum,0.6069 ETH,/mad-cat-militia/sales/summary,"$1,719",#1d8843,330.07%,6,/mad-cat-militia/sales,8
+136,/block-cities,https://d1nht67oz99wd1.cloudfront.net/resized/block-cities_resized.png,Block Cities,Ethereum,0.5840 ETH,/block-cities/sales/summary,"$1,682",#1d8843,0.00%,2,/block-cities/sales,5
+137,/bitcoin-origins,https://d1nht67oz99wd1.cloudfront.net/resized/btc-origins-logo_resized.png,Bitcoin Origins,WAX,"7,037 WAX",/bitcoin-origins/sales/summary,"$1,425",#1d8843,386.23%,8,/bitcoin-origins/sales,69
+138,/chubbies,https://d1nht67oz99wd1.cloudfront.net/resized/chubbies_resized.png,Chubbies,Ethereum,0.4234 ETH,/chubbies/sales/summary,"$1,229",#ca2d2d,51.06%,9,/chubbies/sales,10
+139,/gnome-series,https://cryptoslam-token-images.s3.amazonaws.com/gnome-series.png,Gnome Series,WAX,"5,996 WAX",/gnome-series/sales/summary,"$1,198",#ca2d2d,31.12%,125,/gnome-series/sales,"1,007"
+140,/evolution,https://d1nht67oz99wd1.cloudfront.net/resized/evolution-logo_resized.png,Evolution,Flow,"1,159.43 USD",/evolution/sales/summary,"$1,159",#1d8843,814.60%,4,/evolution/sales,8
+141,/crypto-zunks,https://d1nht67oz99wd1.cloudfront.net/crypto-zunks.jpg,Crypto Zunks,Ethereum,0.3869 ETH,/crypto-zunks/sales/summary,"$1,119",#1d8843,89.28%,6,/crypto-zunks/sales,13
+142,/pixelglyphs,https://d1nht67oz99wd1.cloudfront.net/resized/pixelglyphs_resized.png,Pixelglyphs,Ethereum,0.3636 ETH,/pixelglyphs/sales/summary,"$1,041",#1d8843,782.83%,8,/pixelglyphs/sales,8
+143,/galactic-secret-agency,https://d1nht67oz99wd1.cloudfront.net/resized/galactic-secret-agency_resized.png,Galactic Secret Agency,Ethereum,0.3550 ETH,/galactic-secret-agency/sales/summary,"$1,037",#ca2d2d,43.08%,7,/galactic-secret-agency/sales,7
+144,/nft-draft,https://d1nht67oz99wd1.cloudfront.net/nft-draft.png,Nft Draft,WAX,"4,732 WAX",/nft-draft/sales/summary,$949,#1d8843,58.80%,45,/nft-draft/sales,544
+145,/the-horrors,https://d1nht67oz99wd1.cloudfront.net/resized/thehorrors-logo_resized.png,The Horrors,WAX,"4,724 WAX",/the-horrors/sales/summary,$947,#1d8843,150.91%,21,/the-horrors/sales,344
+146,/nice-drips,https://d1nht67oz99wd1.cloudfront.net/resized/nice-drips_resized.webp,Nice Drips,Ethereum,0.3124 ETH,/nice-drips/sales/summary,$898,#1d8843,185.37%,10,/nice-drips/sales,11
+147,/writer,https://d1nht67oz99wd1.cloudfront.net/crypto-writer.png,Writer,WAX,"4,069 WAX",/writer/sales/summary,$805,#1d8843,128.37%,9,/writer/sales,38
+148,/slumdoge-billionaires,https://d1nht67oz99wd1.cloudfront.net/resized/slumdoge-billionaires_resized.ico,Slumdoge Billionaires,Ethereum,0.2394 ETH,/slumdoge-billionaires/sales/summary,$695,#ca2d2d,79.95%,4,/slumdoge-billionaires/sales,4
+149,/my-fking-pickle,https://d1nht67oz99wd1.cloudfront.net/resized/my-fucking-pickle_resized.ico,My Fking Pickle,Ethereum,0.2280 ETH,/my-fking-pickle/sales/summary,$659,#1d8843,128.61%,3,/my-fking-pickle/sales,3
+150,/mlb-champions,https://d1nht67oz99wd1.cloudfront.net/mlbc-logo.png,MLB Champions,Ethereum,0.2000 ETH,/mlb-champions/sales/summary,$582,#ca2d2d,94.94%,4,/mlb-champions/sales,4
+151,/bunks,https://d1nht67oz99wd1.cloudfront.net/resized/cryptopunks-logo_resized.png,Bunks,BSC,1.29 BNB,/bunks/sales/summary,$478,#1d8843,0.00%,1,/bunks/sales,1
+152,/hodlgod,https://d1nht67oz99wd1.cloudfront.net/resized/hodlgod-logo_resized.png,HodlGod,WAX,"2,374 WAX",/hodlgod/sales/summary,$475,#1d8843,762.68%,6,/hodlgod/sales,22
+153,/stryking,https://d1nht67oz99wd1.cloudfront.net/resized/stryking-logo_resized.png,Stryking,Ethereum,0.1600 ETH,/stryking/sales/summary,$456,#1d8843,0.00%,1,/stryking/sales,1
+154,/motogp,https://d1nht67oz99wd1.cloudfront.net/resized/motogp-logo_resized.png,Motogp,Flow,347.76 USD,/motogp/sales/summary,$446,#1d8843,9.88%,7,/motogp/sales,16
+155,/blazed-cats,https://d1nht67oz99wd1.cloudfront.net/resized/blazed-cats_resized.webp,Blazed Cats,Ethereum,0.1374 ETH,/blazed-cats/sales/summary,$394,#ca2d2d,2.40%,5,/blazed-cats/sales,6
+156,/upland-collectibles,https://d1nht67oz99wd1.cloudfront.net/resized/upland-collectibles_resized.png,Upland Collectibles,WAX,"1,755 WAX",/upland-collectibles/sales/summary,$353,#ca2d2d,87.20%,12,/upland-collectibles/sales,30
+157,/yoshi-drops,https://d1nht67oz99wd1.cloudfront.net/resized/yoshidrops_resized.jpg,Yoshi Drops,WAX,"1,767 WAX",/yoshi-drops/sales/summary,$352,#1d8843,45.05%,48,/yoshi-drops/sales,250
+158,/ultra-rare,https://d1nht67oz99wd1.cloudfront.net/resized/ultra-rare_resized.png,Ultra Rare,WAX,"1,528 WAX",/ultra-rare/sales/summary,$307,#1d8843,247.72%,29,/ultra-rare/sales,113
+159,/the-uplift-world,https://d1nht67oz99wd1.cloudfront.net/resized/the-uplift-world_resized.png,The Uplift World,WAX,"1,294 WAX",/the-uplift-world/sales/summary,$261,#1d8843,760.95%,2,/the-uplift-world/sales,3
+160,/tales-of-the-crypto,https://d1nht67oz99wd1.cloudfront.net/resized/tales-of-the-crypto_resized.jpg,Tales Of The Crypto,WAX,"1,156 WAX",/tales-of-the-crypto/sales/summary,$233,#1d8843,"1,279.05%",10,/tales-of-the-crypto/sales,34
+161,/f1-delta-time,https://d1nht67oz99wd1.cloudfront.net/resized/f1-delta-time-logo_resized.png,F1 Delta Time,Ethereum,0.0710 ETH,/f1-delta-time/sales/summary,$208,#ca2d2d,67.83%,2,/f1-delta-time/sales,2
+162,/garbage-pail-kids,https://d1nht67oz99wd1.cloudfront.net/resized/gpk-logo_resized.png,Garbage Pail Kids,WAX,860 WAX,/garbage-pail-kids/sales/summary,$173,#ca2d2d,79.91%,14,/garbage-pail-kids/sales,60
+163,/street-fighter,https://d1nht67oz99wd1.cloudfront.net/resized/streetfighter-logo_resized.png,Street Fighter,WAX,843 WAX,/street-fighter/sales/summary,$170,#ca2d2d,36.99%,40,/street-fighter/sales,242
+164,/the-wonderquest,https://d1nht67oz99wd1.cloudfront.net/resized/the-wonderquest_resized.jpg,The Wonderquest,Ethereum,0.0550 ETH,/the-wonderquest/sales/summary,$160,#1d8843,302.89%,3,/the-wonderquest/sales,5
+165,,https://cryptoslam-token-images.s3.amazonaws.com/icons/rogue.png,ClashDome,WAX,784 WAX,/clashdome/sales/summary,$154,#ca2d2d,2.48%,1,/clashdome/sales,1
+166,/rabbit-college-club,https://d1nht67oz99wd1.cloudfront.net/resized/rabbit-college-club_resized.ico,Rabbit College Club,Ethereum,0.0499 ETH,/rabbit-college-club/sales/summary,$142,#ca2d2d,16.45%,3,/rabbit-college-club/sales,3
+167,/kenn-bosak,https://d1nht67oz99wd1.cloudfront.net/resized/kenn-bosak_resized.jpg,Kenn Bosak,WAX,681 WAX,/kenn-bosak/sales/summary,$138,#1d8843,272.29%,17,/kenn-bosak/sales,169
+168,/godzilla,https://d1nht67oz99wd1.cloudfront.net/resized/godzilla_resized.png,Godzilla,WAX,572 WAX,/godzilla/sales/summary,$115,#1d8843,174.51%,9,/godzilla/sales,164
+169,/etherworlds,https://d1nht67oz99wd1.cloudfront.net/resized/etherworlds_resized.png,Etherworlds,Ethereum,0.0350 ETH,/etherworlds/sales/summary,$102,#1d8843,0.00%,1,/etherworlds/sales,1
+170,/void-elementals,https://d1nht67oz99wd1.cloudfront.net/resized/void-elementals_resized.png,Void Elementals,WAX,499 WAX,/void-elementals/sales/summary,$99,#1d8843,0.00%,9,/void-elementals/sales,33
+171,/the-chronicles-of-dr-zammsy,https://d1nht67oz99wd1.cloudfront.net/the-chronicles-of-dr-zammsy.png,The Chronicles Of Dr Zammsy,WAX,474 WAX,/the-chronicles-of-dr-zammsy/sales/summary,$95,#1d8843,0.00%,2,/the-chronicles-of-dr-zammsy/sales,5
+172,/pepe.hero,https://d1nht67oz99wd1.cloudfront.net/resized/pepehero-logo_resized.png,Pepe.Hero,WAX,429 WAX,/pepe.hero/sales/summary,$88,#1d8843,427.44%,7,/pepe.hero/sales,17
+173,/reckless-whales,https://d1nht67oz99wd1.cloudfront.net/resized/reckless-whales_resized.png,Reckless Whales,Ethereum,0.0301 ETH,/reckless-whales/sales/summary,$87,#ca2d2d,38.74%,5,/reckless-whales/sales,5
+174,/dust,https://d1nht67oz99wd1.cloudfront.net/resized/dust_resized.png,Dust,WAX,380 WAX,/dust/sales/summary,$77,#ca2d2d,2.44%,1,/dust/sales,1
+175,/inverted-ape-club,https://cryptoslam-token-images.s3.amazonaws.com/icons/inverted-ape-club.png,Inverted Ape Club,Ethereum,0.0250 ETH,/inverted-ape-club/sales/summary,$73,#1d8843,0.00%,1,/inverted-ape-club/sales,1
+176,/nifty-wizards,https://d1nht67oz99wd1.cloudfront.net/resized/nifty-wizards-logo_resized.webp,Nifty Wizards,WAX,328 WAX,/nifty-wizards/sales/summary,$66,#1d8843,33.86%,3,/nifty-wizards/sales,44
+177,/robotech,https://cryptoslam-token-images.s3.amazonaws.com/robotech.png,Robotech,WAX,327 WAX,/robotech/sales/summary,$66,#ca2d2d,13.01%,64,/robotech/sales,246
+178,,https://cryptoslam-token-images.s3.amazonaws.com/icons/villa-paris.png,Villa Devendome Paris ELK,Ethereum,0.0200 ETH,/villa-devendome-paris-elk/sales/summary,$58,#1d8843,0.00%,1,/villa-devendome-paris-elk/sales,1
+179,/goblin-goons,https://d1nht67oz99wd1.cloudfront.net/resized/goblin-goons_resized.jpg,Goblin Goons,Ethereum,0.0190 ETH,/goblin-goons/sales/summary,$54,#ca2d2d,77.17%,1,/goblin-goons/sales,1
+180,,https://cryptoslam-token-images.s3.amazonaws.com/icons/rogue.png,Nft Stonkers,WAX,263 WAX,/nft-stonkers/sales/summary,$53,#ca2d2d,77.72%,11,/nft-stonkers/sales,28
+181,/dark-pinup,https://d1nht67oz99wd1.cloudfront.net/resized/dark-pinup_resized.png,Dark Pinup,WAX,222 WAX,/dark-pinup/sales/summary,$44,#ca2d2d,82.42%,6,/dark-pinup/sales,37
+182,/blockchain-heroes,https://d1nht67oz99wd1.cloudfront.net/resized/blockchain-heroes-logo_resized.png,Blockchain Heroes,WAX,211 WAX,/blockchain-heroes/sales/summary,$42,#ca2d2d,74.39%,10,/blockchain-heroes/sales,24
+183,/hash-demons,https://d1nht67oz99wd1.cloudfront.net/resized/hash-demons_resized.ico,Hash Demons,Ethereum,0.0125 ETH,/hash-demons/sales/summary,$37,#1d8843,25.19%,2,/hash-demons/sales,2
+184,/imposter-punks,https://cryptoslam-token-images.s3.amazonaws.com/icons/imposter-punks.png,Imposter Punks,WAX,179 WAX,/imposter-punks/sales/summary,$36,#1d8843,0.00%,3,/imposter-punks/sales,7
+185,/cartombs,https://d1nht67oz99wd1.cloudfront.net/resized/cartombs_resized.png,Cartombs,WAX,177 WAX,/cartombs/sales/summary,$35,#1d8843,941.98%,7,/cartombs/sales,15
+186,/yat,https://d1nht67oz99wd1.cloudfront.net/yat.png,Yat,Ethereum,0.0125 ETH,/yat/sales/summary,$35,#ca2d2d,98.77%,1,/yat/sales,1
+187,/skullz,https://d1nht67oz99wd1.cloudfront.net/resized/skullz_resized.png,Skullz,WAX,162 WAX,/skullz/sales/summary,$33,#ca2d2d,72.72%,7,/skullz/sales,11
+188,/boysterous,https://d1nht67oz99wd1.cloudfront.net/resized/boysterous_resized.jpg,Boysterous,WAX,135 WAX,/boysterous/sales/summary,$27,#1d8843,"1,346,396.65%",1,/boysterous/sales,2
+189,/monsters-of-rap,https://d1nht67oz99wd1.cloudfront.net/resized/monsters-of-rap-logo_resized.png,Monsters of Rap,WAX,131 WAX,/monsters-of-rap/sales/summary,$26,#ca2d2d,87.23%,16,/monsters-of-rap/sales,50
+190,/muhammad-ali,https://d1nht67oz99wd1.cloudfront.net/muhammad-ali.png,Muhammad Ali,WAX,106 WAX,/muhammad-ali/sales/summary,$21,#ca2d2d,96.71%,7,/muhammad-ali/sales,49
+191,/deadmau5,https://d1nht67oz99wd1.cloudfront.net/resized/deadmau5-logo_resized.png,deadmau5,WAX,72 WAX,/deadmau5/sales/summary,$14,#ca2d2d,91.89%,4,/deadmau5/sales,14
+192,/vancity-outbreak,https://d1nht67oz99wd1.cloudfront.net/resized/vancity-logo_resized.png,VanCity Outbreak,WAX,63 WAX,/vancity-outbreak/sales/summary,$13,#1d8843,0.00%,1,/vancity-outbreak/sales,3
+193,/bitverse-comics,https://d1nht67oz99wd1.cloudfront.net/resized/bitverse_resized.png,Bitverse Comics,WAX,50 WAX,/bitverse-comics/sales/summary,$10,#ca2d2d,10.92%,11,/bitverse-comics/sales,40
+194,/mutant-warriors,https://d1nht67oz99wd1.cloudfront.net/resized/mutant-warriors-logo_resized.png,Mutant Warriors,WAX,48 WAX,/mutant-warriors/sales/summary,$10,#ca2d2d,71.79%,3,/mutant-warriors/sales,22
+195,/weezer,https://d1nht67oz99wd1.cloudfront.net/weezer.jpeg,Weezer,WAX,48 WAX,/weezer/sales/summary,$10,#1d8843,107.09%,4,/weezer/sales,14
+196,/exit-limbo,https://d1nht67oz99wd1.cloudfront.net/resized/exit-limbo_resized.png,Exit Limbo,WAX,47 WAX,/exit-limbo/sales/summary,$10,#ca2d2d,61.33%,5,/exit-limbo/sales,7
+197,/atari,https://d1nht67oz99wd1.cloudfront.net/resized/atari-logo_resized.png,Atari,WAX,28 WAX,/atari/sales/summary,$6,#ca2d2d,96.34%,2,/atari/sales,3
+198,/old-world-money,https://d1nht67oz99wd1.cloudfront.net/resized/old-world-money_resized.png,Old World Money,WAX,24 WAX,/old-world-money/sales/summary,$5,#1d8843,"2,329.22%",2,/old-world-money/sales,19
+199,/in-the-moment,https://d1nht67oz99wd1.cloudfront.net/resized/in-the-moment-with-anthony-geathers_resized.png,In The Moment,WAX,22 WAX,/in-the-moment/sales/summary,$4,#ca2d2d,44.43%,2,/in-the-moment/sales,5
+200,/leonard-nimoy,https://d1nht67oz99wd1.cloudfront.net/resized/leonard-nimoy-logo_resized.png,Leonard Nimoy,WAX,21 WAX,/leonard-nimoy/sales/summary,$4,#ca2d2d,33.20%,4,/leonard-nimoy/sales,12
+201,/alpaca-worlds,https://d1nht67oz99wd1.cloudfront.net/resized/alpaca-worlds_resized.png,Alpaca Worlds,WAX,16 WAX,/alpaca-worlds/sales/summary,$3,#1d8843,89.48%,3,/alpaca-worlds/sales,7
+202,/luna-park,https://d1nht67oz99wd1.cloudfront.net/resized/luna-park_resized.png,Luna Park,WAX,16 WAX,/luna-park/sales/summary,$3,#ca2d2d,34.01%,17,/luna-park/sales,18
+203,,https://d1nht67oz99wd1.cloudfront.net/resized/gods-unchained-logo_resized.png,Gods Unchained,Ethereum,0.0010 ETH,/gods-unchained/sales/summary,$3,#1d8843,0.00%,1,/gods-unchained/sales,1
+204,/bitcoin-babes,https://d1nht67oz99wd1.cloudfront.net/resized/bitcoin-babes_resized.png,Bitcoin Babes,WAX,14 WAX,/bitcoin-babes/sales/summary,$3,#1d8843,"1,370.02%",1,/bitcoin-babes/sales,2
+205,/bitcoin-elite,https://d1nht67oz99wd1.cloudfront.net/resized/bitcoinelite-logo_resized.png,Bitcoin Elite,WAX,12 WAX,/bitcoin-elite/sales/summary,$2,#1d8843,158.15%,4,/bitcoin-elite/sales,4
+206,/armies-of-power,https://d1nht67oz99wd1.cloudfront.net/resized/armies-of-power_resized.png,Armies Of Power,WAX,10 WAX,/armies-of-power/sales/summary,$2,#ca2d2d,71.54%,2,/armies-of-power/sales,19
+207,/gopepe,https://d1nht67oz99wd1.cloudfront.net/resized/gopepe-logo_resized.png,GoPepe,WAX,8 WAX,/gopepe/sales/summary,$2,#1d8843,665.36%,3,/gopepe/sales,7
+208,/box-maze,https://d1nht67oz99wd1.cloudfront.net/box-maze.jpeg,Box Maze,WAX,5 WAX,/box-maze/sales/summary,$1,#1d8843,407.19%,2,/box-maze/sales,9
+209,/upliftart,https://d1nht67oz99wd1.cloudfront.net/resized/uplift-art-logo_resized.png,UpliftArt,WAX,4 WAX,/upliftart/sales/summary,$1,#1d8843,27.20%,1,/upliftart/sales,1
+210,/bud-farm,https://d1nht67oz99wd1.cloudfront.net/resized/budfarm_resized.png,Bud Farm,WAX,3 WAX,/bud-farm/sales/summary,$1,#ca2d2d,12.12%,2,/bud-farm/sales,4
+211,/the-world-of-botanica,https://d1nht67oz99wd1.cloudfront.net/resized/twob-logo_resized.png,The World of Botanica,WAX,2 WAX,/the-world-of-botanica/sales/summary,$0,#1d8843,246.30%,1,/the-world-of-botanica/sales,4
+212,/hotcakes,https://d1nht67oz99wd1.cloudfront.net/resized/hotcakesdrop-logo_resized.png,hotcakes,WAX,1 WAX,/hotcakes/sales/summary,$0,#1d8843,0.00%,1,/hotcakes/sales,3
+213,/the-nifty-shop,https://d1nht67oz99wd1.cloudfront.net/resized/theniftyshop-logo_resized.png,The Nifty Shop,WAX,1 WAX,/the-nifty-shop/sales/summary,$0,#1d8843,837.24%,8,/the-nifty-shop/sales,12
+214,/monkey-bytes,https://d1nht67oz99wd1.cloudfront.net/resized/monkey-bytes_resized.jpg,Monkey Bytes,Ethereum,0.0000 ETH,/monkey-bytes/sales/summary,$0,#1d8843,0.00%,0,/monkey-bytes/sales,0
+215,/reddit-cryptosnoos,https://d1nht67oz99wd1.cloudfront.net/resized/reddit-cryptosnoos_resized.png,Reddit Cryptosnoos,Ethereum,0.0000 ETH,/reddit-cryptosnoos/sales/summary,$0,#1d8843,0.00%,0,/reddit-cryptosnoos/sales,0
+216,/nfft,https://d1nht67oz99wd1.cloudfront.net/resized/nfft_resized.png,Nfft,Ethereum,0.0000 ETH,/nfft/sales/summary,$0,#1d8843,0.00%,0,/nfft/sales,0
+217,/niftycards,https://d1nht67oz99wd1.cloudfront.net/resized/niftycards-logo_resized.png,NiftyCards,WAX,0 WAX,/niftycards/sales/summary,$0,#1d8843,0.00%,0,/niftycards/sales,0
+218,/autoglyphs,https://d1nht67oz99wd1.cloudfront.net/autoglyphs.png,Autoglyphs,Ethereum,0.0000 ETH,/autoglyphs/sales/summary,$0,#1d8843,0.00%,0,/autoglyphs/sales,0
+219,/nft-hype-album,https://d1nht67oz99wd1.cloudfront.net/resized/nfthypealbum_resized.png,NFT Hype Album,WAX,0 WAX,/nft-hype-album/sales/summary,$0,#1d8843,0.00%,0,/nft-hype-album/sales,0
+220,/tom-sachs-rocket-factory,https://d1nht67oz99wd1.cloudfront.net/resized/tom-sach-rocket-factory_resized.webp,Tom Sachs Rocket Factory,Ethereum,0.0000 ETH,/tom-sachs-rocket-factory/sales/summary,$0,#ca2d2d,100.00%,0,/tom-sachs-rocket-factory/sales,0
+221,/deafbeef,https://d1nht67oz99wd1.cloudfront.net/resized/deafbeef_resized.jpg,Deafbeef,Ethereum,0.0000 ETH,/deafbeef/sales/summary,$0,#1d8843,0.00%,0,/deafbeef/sales,0
+222,/cryptophunks,https://cryptoslam-token-images.s3.amazonaws.com/icons/cryptophunks.ico,Cryptophunks,Ethereum,0.0000 ETH,/cryptophunks/sales/summary,$0,#1d8843,0.00%,0,/cryptophunks/sales,0
+223,,https://d1nht67oz99wd1.cloudfront.net/resized/al-cabones_resized.png,Al Cabones,Ethereum,0.0000 ETH,/al-cabones/sales/summary,$0,#1d8843,0.00%,0,/al-cabones/sales,0
+224,/procedural-space,https://cryptoslam-token-images.s3.amazonaws.com/icons/procedural-space.ico,Procedural Space,Ethereum,0.0000 ETH,/procedural-space/sales/summary,$0,#1d8843,0.00%,0,/procedural-space/sales,0
+225,/land-vault,https://d1nht67oz99wd1.cloudfront.net/resized/land-vault_resized.jpg,Land Vault,Ethereum,0.0000 ETH,/land-vault/sales/summary,$0,#ca2d2d,100.00%,0,/land-vault/sales,0
+226,/gener8tive,https://d1nht67oz99wd1.cloudfront.net/resized/gener8tive-k-compositions_resized.ico,Gener8tive,Ethereum,0.0000 ETH,/gener8tive/sales/summary,$0,#1d8843,0.00%,0,/gener8tive/sales,0
+227,/rebel-rabbits,https://d1nht67oz99wd1.cloudfront.net/rebel-rabbits.jpeg,Rebel Rabbits,WAX,0 WAX,/rebel-rabbits/sales/summary,$0,#1d8843,0.00%,0,/rebel-rabbits/sales,0
+228,/blitmap,https://d1nht67oz99wd1.cloudfront.net/resized/blitmap_resized.png,Blitmap,Ethereum,0.0000 ETH,/blitmap/sales/summary,$0,#ca2d2d,100.00%,0,/blitmap/sales,0
+229,/crypto-twerpz,https://d1nht67oz99wd1.cloudfront.net/resized/cryptotwerpz-logo_resized.png,Crypto Twerpz,WAX,0 WAX,/crypto-twerpz/sales/summary,$0,#1d8843,0.00%,0,/crypto-twerpz/sales,0
+230,/dappradar-onessus,https://d1nht67oz99wd1.cloudfront.net/resized/dappradar-onessus-_resized.png,Dappradar Onessus,WAX,0 WAX,/dappradar-onessus/sales/summary,$0,#ca2d2d,100.00%,0,/dappradar-onessus/sales,0
+231,/space-shibas,https://d1nht67oz99wd1.cloudfront.net/space-shibas.png,Space Shibas,Ethereum,0.0000 ETH,/space-shibas/sales/summary,$0,#1d8843,0.00%,0,/space-shibas/sales,0
+232,/degenz,https://d1nht67oz99wd1.cloudfront.net/resized/degenz_resized.jpg,Degenz,Ethereum,0.0000 ETH,/degenz/sales/summary,$0,#ca2d2d,100.00%,0,/degenz/sales,0
+233,/avid-lines,https://d1nht67oz99wd1.cloudfront.net/resized/avid-lines_resized.png,Avid Lines,Ethereum,0.0000 ETH,/avid-lines/sales/summary,$0,#1d8843,0.00%,0,/avid-lines/sales,0
+234,/wrapped-cryptocats,https://d1nht67oz99wd1.cloudfront.net/wrapped-crypto-cats.jpeg,Wrapped Cryptocats,Ethereum,0.0000 ETH,/wrapped-cryptocats/sales/summary,$0,#1d8843,0.00%,0,/wrapped-cryptocats/sales,0
+235,/bratz,https://d1nht67oz99wd1.cloudfront.net/resized/bratz-logo_resized.png,Bratz,WAX,0 WAX,/bratz/sales/summary,$0,#1d8843,0.00%,0,/bratz/sales,0
+236,,https://cryptoslam-token-images.s3.amazonaws.com/icons/pixel-apes.png,Pixel Apes,Ethereum,0.0000 ETH,/pixel-apes/sales/summary,$0,#1d8843,0.00%,0,/pixel-apes/sales,0
+237,/degens-farm,https://d1nht67oz99wd1.cloudfront.net/resized/degenz-farms_resized.png,Degens Farm,Ethereum,0.0000 ETH,/degens-farm/sales/summary,$0,#1d8843,0.00%,0,/degens-farm/sales,0
+238,/tribal-books,https://d1nht67oz99wd1.cloudfront.net/resized/tribal-books-logo_resized.png,Tribal Books,WAX,0 WAX,/tribal-books/sales/summary,$0,#ca2d2d,100.00%,0,/tribal-books/sales,0
+239,/shatner,https://d1nht67oz99wd1.cloudfront.net/resized/shatner-logo_resized.png,Shatner,WAX,0 WAX,/shatner/sales/summary,$0,#1d8843,0.00%,0,/shatner/sales,0
+240,/bravefrontierheroes,https://d1nht67oz99wd1.cloudfront.net/resized/bfh-logo_resized.png,BraveFrontierHeroes,Ethereum,0.0000 ETH,/bravefrontierheroes/sales/summary,$0,#1d8843,0.00%,0,/bravefrontierheroes/sales,0
+241,/cometh-spaceships,https://d1nht67oz99wd1.cloudfront.net/resized/cometh_resized.ico,Cometh Spaceships,Ethereum,0.0000 ETH,/cometh-spaceships/sales/summary,$0,#1d8843,0.00%,0,/cometh-spaceships/sales,0
+242,/player-tokens,https://d1nht67oz99wd1.cloudfront.net/resized/player-tokens-logo_resized.png,Player Tokens,Ethereum,0.0000 ETH,/player-tokens/sales/summary,$0,#1d8843,0.00%,0,/player-tokens/sales,0
