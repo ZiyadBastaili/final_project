@@ -132,4 +132,4 @@ def annotated_text(*args):
         else:
             raise Exception("Oh noes!")
 
-    st.markdown(str(out), unsafe_allow_html=True)
+    return str(out)
