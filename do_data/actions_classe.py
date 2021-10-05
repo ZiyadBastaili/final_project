@@ -65,7 +65,6 @@ class ScrapCollectionsSpider(scrapy.Spider):
                 }
                 table.append(dict_row)
 
-            #pd.DataFrame(table).iloc[:-5 , :].to_csv(r'data/collections/collections_infos/collections_'+time+'.csv', index=False)
             pd.DataFrame(table).to_csv(r'do_data/collections/collections_'+time+'.csv', index=False)
 
         # all time ########################################
@@ -98,16 +97,8 @@ class ScrapCollectionsSpider(scrapy.Spider):
             table.append(dict_row)
 
         df = pd.DataFrame(table)
-        #df.to_csv(r'data/collections/collections_infos/collections_all_time.csv', index=False)
         df.to_csv(r'do_data/collections/collections_all_time.csv', index=False)
-        # print('-------------------------------')
-        # print(df['product_image']).tolist()
-        # download images : to download images remove hashtags
-        # df = pd.read_csv('data/collections/collections_infos/collections_30d.csv')
-        # images = []
-        # for url, name in zip(df['product_image'].tolist(), df['product_name'].tolist()):
-        #     images.append({'url': url, 'name': name})
-        # yield {'image_urls': images}
+
 
 # change images name
 class CustomImageNamePipeline(ImagesPipeline): #I copied this code from the website
@@ -118,24 +109,6 @@ class CustomImageNamePipeline(ImagesPipeline): #I copied this code from the webs
 
     def file_path(self, request, response=None, info=None):
         return '%s.jpg' % request.meta['image_name']
-
-# run spider
-# process = CrawlerProcess({
-#     # save in file CSV, JSON or XML
-#     #'FEED_FORMAT': 'csv',     # csv, json, xml
-#     #'FEED_URI': 'data/images/output.csv', #
-#     # used standard FilesPipeline (download to FILES_STORE/full)
-#     'ITEM_PIPELINES': {'__main__.CustomImageNamePipeline': 1},
-#     # this folder has to exist before downloading
-#     'IMAGES_STORE': 'data/collections/images/',
-#     'DOWNLOAD_DELAY' : 2
-# })
-# process.crawl(ScrapCollectionsSpider)
-# process.start()
-
-
-
-
 
 
 ########################################################
@@ -190,53 +163,6 @@ class ScrapCollectionsStatisticsSpider(scrapy.Spider):
         self.driver.quit()
 
 
-# run spider
-
-# import pandas as pd
-# data = pd.read_csv("data/collections/collections_infos/collections_24h.csv")
-# names = data['product_name'].tolist()
-# stats_links = ['https://cryptoslam.io' + str(link) for link in data['product_link'].tolist()]
-# names = names[190:]
-# stats_links = stats_links[190:]
-#
-# configure_logging()
-# runner = CrawlerRunner()
-# for name, link in zip(names, stats_links):
-#     if str(name)!='nan':
-#         runner.crawl(ScrapCollectionsStatisticsSpider, filename = name, start_urls = link)
-#
-# d = runner.join()
-# d.addBoth(lambda _: reactor.stop())
-# reactor.run()  # the script will block here until all crawling jobs are finished
-
-
-# from crochet import setup, wait_for
-# setup()
-#
-# @wait_for(timeout= 3000.0) #wait 50min = 3000s to files load
-# def run(link, name):
-#     runner = CrawlerRunner()
-#     link = 'https://cryptoslam.io' + link
-#     d = runner.crawl(ScrapCollectionsStatisticsSpider, filename = name, start_urls = link)
-#     return d
-# #********************* change "stats/.. to "do_data/stats/..
-# df = pd.read_csv("collections/collections_24h.csv")
-# i=1
-# for name, link in zip(df['product_name'].tolist()[10:], df['product_link'].tolist()[10:]):
-#         print( str(i) + " : "+ name)
-#         try:
-#             run(link, name)
-#         except:
-#             pass
-#         print('--------------')
-#         i+=1
-
-
-
-
-
-
-
 
 ########################################################
 ########################################################
@@ -248,17 +174,10 @@ import os.path
 
 class ScrapSalesVolumeDataSpider(scrapy.Spider):
     name = 'sales volume data'
-    #start_urls = ['https://cryptoslam.io/art-blocks/sales/summary',]
 
     custom_settings = {
         'DOWNLOAD_DELAY': 0,
         'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
-        #'FEEDS': {
-         #   f'{filename}.csv': {
-          #      'format': 'csv',
-           #     'overwrite': True
-            #}
-        #}
     }
 
     @classmethod
@@ -327,47 +246,11 @@ class ScrapSalesVolumeDataSpider(scrapy.Spider):
         total_transactions = list(map(self.to_text, self.driver.find_elements_by_xpath( '//*[@id="table"]/tbody/tr[contains(@role, "row")]/td[6]')))
         avg_sales_usd = list(map(self.to_text, self.driver.find_elements_by_xpath( '//*[@id="table"]/tbody/tr[contains(@role, "row")]/td[7]')))
         avg_sales_eth = list(map(self.to_text, self.driver.find_elements_by_xpath( '//*[@id="table"]/tbody/tr[contains(@role, "row")]/td[8]')))
-        # for index in range(len(date)):
-        #     if date[index] == 'Total':
-        #         date[index] = 'Total : ' + date[index -1][0:3] + date[index -1][-4:]
-        #
-        #
-        # yield {
-        #     'Date': date,
-        #     'Sales (USD)': sales_usd,
-        #     'Sales (ETH)': sales_eth,
-        #     'Unique Buyers': unique_bayers,
-        #     'Total Transactions': total_transactions,
-        #     'Avg Sale (USD)': avg_sales_usd,
-        #     'Avg Sale (ETH)': avg_sales_eth
-        # }
 
         df = pd.DataFrame(list(zip(date, sales_usd, sales_eth, unique_bayers, total_transactions, avg_sales_usd, avg_sales_eth)), columns=self.header)
         df.loc[df.Date == 'Total', 'Date'] = 'Total : ' + str(df.loc[df.Date != 'Total', 'Date'][0][0:3]) + str(df.loc[df.Date != 'Total', 'Date'][0][-4:])
         df.to_csv(r'sales_summary/'+self.filename+'.csv', mode='a', index=False, header=False)
-
-
-# run spider
-# df = pd.read_csv('data/collections/collections_infos/collections_24h2.csv')
-# #
-# from crochet import setup, wait_for
-# setup()
-#
-# @wait_for(timeout= 3000.0) #wait 50min = 3000s to files load
-# def run(link, name):
-#     runner = CrawlerRunner()
-#     link = 'https://cryptoslam.io' + link
-#     d = runner.crawl(ScrapSalesVolumeDataSpider, [link, ], name)
-#     return d
-#
-# i=1
-# for name, link in zip(df['product_name'].tolist(), df['sales_summary_link'].tolist()):
-#     if len(link) != 0:
-#         print( str(i) + " : "+ name)
-#         run(link, name)
-#         print('--------------')
-#         i+=1
-
+        
 
 ########################################################
 ########################################################
@@ -437,15 +320,6 @@ class tweeter_accounts(scrapy.Spider):
             yield {'project_name': project_name,
                    'twitter_url': twitter_url}
 
-# run spider
-# process = CrawlerProcess({'USER_AGENT': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36",
-#                               # save in file CSV, JSON or XML
-#                               'FEED_FORMAT': 'csv',     # csv, json, xml
-#                               'FEED_URI': 'twitter.csv'
-#                           })
-# process.crawl(tweeter_accounts)
-# process.start()
-
 
 
 ########################################################
@@ -487,26 +361,6 @@ class ScrapSalesSpider(scrapy.Spider):
         else:
             df.to_csv(r'do_data/sales/sales_7d.csv', index=False)
 
-        # download products image
-        # images = []
-        # for url, name in zip(df['product_image'].tolist(), df['product_name'].tolist()):
-        #     if url != None:
-        #         if url[-3:] != 'svg':
-        #             file_exists = os.path.isfile('scrapy_app/do_data/sales/images/'+ str(name.translate(str.maketrans('', '', ''''!"&\'()*+,-./:;<=>?-[\\]^_{|}~`'''))))
-        #             if file_exists == False:
-        #                 images.append({'url': url, 'name': name.translate(str.maketrans('', '', ''''!"&\'()*+,-./:;<=>?-[\\]^_{|}~`'''))})
-        # yield {'image_urls': images}
-
-
-#run spider
-# process = CrawlerProcess({
-#     'ITEM_PIPELINES': {'__main__.CustomImageNamePipeline': 1},
-#     # this folder has to exist before downloading
-#     'IMAGES_STORE': 'sales/images/',
-#     'DOWNLOAD_DELAY' : 1
-# })
-# process.crawl(ScrapSalesSpider)
-# process.start()
 
 
 ########################################################
@@ -543,26 +397,6 @@ class ScrapCollectionSalesSpider(scrapy.Spider):
 
         df = pd.DataFrame(table)
         df.to_csv(r'do_data/sales/sales_'+self.filename+'.csv', index=False)
-
-        # download products image
-        # images = []
-        # for url, name in zip(df['product_image'].tolist(), df['product_name'].tolist()):
-        #     if url != None:
-        #         if url[-3:] != 'svg':
-        #             file_exists = os.path.isfile('scrapy_app/do_data/sales/images/'+ str(name.translate(str.maketrans('', '', ''''!"&\'()*+,-./:;<=>?-[\\]^_{|}~`'''))))
-        #             if file_exists == False:
-        #                 images.append({'url': url, 'name': name.translate(str.maketrans('', '', ''''!"&\'()*+,-./:;<=>?-[\\]^_{|}~`'''))})
-        # yield {'image_urls': images}
-
-
-#run spider
-# process = CrawlerProcess({'ITEM_PIPELINES': {'__main__.CustomImageNamePipeline': 1},
-#      # this folder has to exist before downloading
-#     'IMAGES_STORE': 'do_data/sales/images/',
-#     'DOWNLOAD_DELAY' : 1})
-# process.crawl(ScrapCollectionSalesSpider, '/collection/cryptopunks', 'cryptopunks')
-# process.start()
-
 
 
 
@@ -652,13 +486,6 @@ class ScrapTxnsSpider(scrapy.Spider):
         df = pd.DataFrame(table)
         df.to_csv("do_data/transactions/NFT_Transactions.csv", index=False)
         self.driver.close()
-
-
-
-# run spider
-# process = CrawlerProcess()
-# process.crawl(ScrapTxnsSpider, 'https://www.cryptoslam.io/bored-ape-kennel-club/sales')
-# process.start()
 
 
 ########################################################
@@ -755,12 +582,6 @@ class ScrapContractAddresseSpider(scrapy.Spider):
                     myfile.write('error')
 
         self.driver.close()
-
-
-# run spider
-# process = CrawlerProcess({'USER_AGENT': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36"})
-# process.crawl(ScrapContractAddresseSpider, 'https://www.cryptoslam.io/punks-comic/sales')
-# process.start()
 
 
 
@@ -925,208 +746,3 @@ def get_sales_assets(address, sales_number, only_opensea, offest=0):
         sales_list.extend(parsed_sales)
 
     return sales_list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-############################################################################################
-############################################################################################
-############################################################################################
-############################################################################################
-############################################################################################
-############################################################################################
-
-
-
-#
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
-# from selenium.webdriver.common.by import By
-# from selenium.common.exceptions import TimeoutException
-# class ScrapTwitterAccountSpider():
-#     name = 'twitter accounts'
-#
-#     def __init__(self, url = 'https://opensea.io/rankings'):
-#         self.url = url
-#         option = webdriver.ChromeOptions()
-#         option.add_argument('--ignore-certificate-errors')
-#         option.add_argument('--incognito')
-#         option.add_argument('--headless')
-#         option.add_argument('--start-maximized')
-#         option.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36")
-#
-#         try:
-#             self.driver = webdriver.Chrome(
-#                 executable_path="C:/Users/hp/.wdm/drivers/chromedriver/win32/91.0.4472.101/chromedriver.exe",
-#                 options=option)
-#         except:
-#             self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=option)
-#
-#
-#     def get_attribute_href(self, element):
-#         return element.get_attribute('href')
-#
-#     def parse(self):
-#         self.driver.get(self.url)
-#         delay = 3  # seconds
-#         try:
-#             myElem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, 'IdOfMyElement')))
-#             print("Page is ready!")
-#         except TimeoutException:
-#             print("Loading took too much time!")
-#         #print(self.driver.page_source)
-#         data_link = list(map(self.get_attribute_href, self.driver.find_elements_by_xpath('//*[@id="__next"]/div[1]/main/div/div/div/div[2]/div[2]/div[contains(@role, "listitem")]/a')))
-#         self.driver.close()
-#         print(len(data_link))
-
-# run
-# process = ScrapTwitterAccountSpider()
-# process.parse()
-
-
-
-########################################################
-########################################################
-#                 Scrapy + Selenium                    #
-########################################################
-########################################################
-
-# from selenium import webdriver
-# from webdriver_manager.chrome import ChromeDriverManager
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
-# from bs4 import BeautifulSoup
-#
-#
-# class ScrapNFTsOverviewSpider(scrapy.Spider):
-#     name = 'SummarySeles'
-#
-#     def __init__(self):
-#         #self.start_urls = ['https://dappradar.com/nft/collections/'+str(page) for page in range(1,10)]
-#         self.start_urls = ['https://dappradar.com/nft/collections/1',]
-#         option = webdriver.ChromeOptions()
-#         option.add_argument('--ignore-certificate-errors')
-#         option.add_argument('--incognito')
-#         option.add_argument('--headless')
-#         try:
-#             self.driver = webdriver.Chrome(
-#                 executable_path="C:/Users/hp/.wdm/drivers/chromedriver/win32/91.0.4472.101/chromedriver.exe",
-#                 options=option)
-#         except:
-#             self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=option)
-#
-#
-#     custom_settings = {
-#         'DOWNLOAD_DELAY': 0,
-#         'CONCURRENT_REQUESTS_PER_DOMAIN': 1
-#     }
-#
-#     def parse(self, response):
-#
-#         self.driver.get(response.url)
-#         #self.driver.maximize_window()
-#
-#         table = []
-#         rows = self.driver.find_elements_by_xpath('//*[@id="root"]/div/div[1]/div[4]/section/div[2]/div[contains(@d, "row")]')
-#         for row in rows:
-#             soup = BeautifulSoup(row.get_attribute('outerHTML'), 'xml')
-#             volume_box = soup.find("div", attrs={"class": "sc-eLgOdN ejJoEn rankings-column rankings-column__nft-volume"})
-#             volume = volume_box.find("div", attrs={"class": "sc-bTvRPi FSLpx"}).text
-#             try:
-#                 volume_change = volume_box.find("div", attrs={"class": "sc-hlTvYk jyQRqv"}).text
-#             except:
-#                 volume_change = volume_box.find("div", attrs={"class": "sc-hlTvYk kYlcwY"}).text
-#             try :
-#                 product_name = row.find_element_by_xpath('div[2]/div[2]/a').text
-#                 product_link = row.find_element_by_xpath('div[2]/div[2]/a').get_attribute('href')
-#             except:
-#                 product_name = row.find_element_by_xpath('div[2]/div[2]/span').text
-#                 product_link = 'None'
-#
-#             dict_row = {
-#                 'rank': row.find_element_by_xpath('div[1]').text,
-#                 'product_image': row.find_element_by_xpath('div[2]/div[1]/img').get_attribute('src'),
-#                 'product_name': product_name,
-#                 'product_link': product_link,
-#                 'protocol': row.find_element_by_xpath('div[2]/div[2]/div/div').text,
-#                 'volume': volume,
-#                 'volume_change': volume_change,
-#                 'traders': row.find_element_by_xpath('div[4]/div[1]').text,
-#                 'traders_change': row.find_element_by_xpath('div[4]/div[2]').text,
-#                 'sales': row.find_element_by_xpath('div[5]/div[1]').text,
-#                 'sales_change': row.find_element_by_xpath('div[5]/div[2]').text,
-#
-#             }
-#             print(dict_row)
-#             table.append(dict_row)
-#
-#
-#
-#         df = pd.DataFrame(table)
-#         # print(df)
-#         df.to_csv(r'collections_dappradar.csv', index=False)
-#         #
-#         # # download images
-#         # images = []
-#         # for url, name in zip(df['product_image'].tolist(), df['product_name'].tolist()):
-#         #     images.append({'url': url, 'name': name})
-#         # yield {'image_urls': images}
-#
-#         self.driver.close()
-#
-#
-#
-#
-#
-# # run spider
-# process = CrawlerProcess({'USER_AGENT': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36"})
-# process.crawl(ScrapNFTsOverviewSpider)
-# process.start()
-
